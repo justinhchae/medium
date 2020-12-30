@@ -1,8 +1,0 @@
-# given a dataframe df
-
-impute = lambda x: \
-                x[col1].replace(year=x[col2].year) \
-                    if x[col1].year > curr_year \
-                    else x[col1].replace(year=x[col2].year) \
-                    if x[col1].year < past_year \
-                    else x[col1]
